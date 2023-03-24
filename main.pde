@@ -6,8 +6,6 @@
 // Prénom      :  Emilie
 // N° étudiant :  20212051
 //
-// Collaboration avec : 
-//
 /////////////////////////////////////////////////////
 // import un module pour les sons
 import processing.sound.*;
@@ -898,11 +896,11 @@ void keyPressed() {
   // contrôle du vaisseau
   else if (key == CODED) {
     if (keyCode == RIGHT) {
-      // tourne le vaisseau de 5 degrées vers la droite
-      shipAngle += radians(5);
+      // tourne le vaisseau de 10 degrées vers la droite
+      shipAngle += radians(10);
     } else if (keyCode == LEFT) {
-      // tourne le vaisseau de 5 degrées vers la gauche
-      shipAngle -= radians(5);
+      // tourne le vaisseau de 10 degrées vers la gauche
+      shipAngle -= radians(10);
     } else if (keyCode == UP){
       if (!engine) {
         // son du moteur juste la première fois qu'on appuie sur l'accélérateur
